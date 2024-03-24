@@ -33,8 +33,8 @@
         <link rel="stylesheet" href="./assets/css/main.css" />
     </head>
     <body style="height: 4000px">
-        <div class="container">
-            <header class="header">
+        <header class="header">
+            <div class="container">
                 <!-- Header top -->
                 <div class="header-top">
                     <a href="#!" class="logo-wrap">
@@ -267,9 +267,12 @@
                         </div>
                     </section>
                 </div>
-            </header>
+            </div>
+        </header>
 
-            <main>
+        <main>
+            <!-- Service -->
+            <div class="container">
                 <section class="service">
                     <!-- Item 1 -->
                     <section class="service-item">
@@ -331,7 +334,120 @@
                         </p>
                     </section>
                 </section>
-            </main>
-        </div>
+            </div>
+
+            <!-- Daily task -->
+            <section class="daily-task">
+                <div class="daily-task__inner">
+                    <!-- Info -->
+                    <div class="daily-task__info">
+                        <h2 class="daily-task__heading">
+                            Okay,
+                            <span class="daily-task__heading-custom">
+                                Let’s
+                            </span>
+                            see D’task in numbers
+                        </h2>
+                        <p class="daily-task__desc">
+                            Powering a productive team means using a powerful
+                            tool (and plenty of snacks). From meetings and
+                            projects to events and goal setting, D'taak
+                            intuitive features give any team the ability to
+                            quickly set up and customize workflows for just
+                            about anything
+                        </p>
+                        <div class="daily-task__list">
+                            <div class="daily-task__dots">
+                                <div class="daily-task__dot"></div>
+                                <div
+                                    class="daily-task__dot daily-task__dot--active"
+                                ></div>
+                                <div class="daily-task__dot"></div>
+                            </div>
+                            <div class="daily-task__items">
+                                <!-- item 1 -->
+                                <div class="daily-task__item">
+                                    <span class="daily-task__number">12M</span>
+                                    <span class="daily-task__text"
+                                        >Support</span
+                                    >
+                                </div>
+
+                                <!-- item 2 -->
+                                <div
+                                    class="daily-task__item daily-task__item--active"
+                                >
+                                    <span class="daily-task__number">16</span>
+                                    <span class="daily-task__text"
+                                        >Active User</span
+                                    >
+                                </div>
+
+                                <!-- item 3 -->
+                                <div class="daily-task__item">
+                                    <span class="daily-task__number">7/24</span>
+                                    <span class="daily-task__text"
+                                        >Languages</span
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Body -->
+                    <div class="daily-task__body">
+                        <div class="daily-task__circle-border">
+                            <div class="daily-task__circle"></div>
+                        </div>
+
+                        <div class="daily-task__task">
+                            <p class="daily-task__name">Online Support</p>
+                            <img
+                                src="./assets/icons/daily-task-play.svg"
+                                alt=""
+                                class="daily-task__icon"
+                            />
+                        </div>
+                        <div class="daily-task__task">
+                            <p class="daily-task__name">Exercitation</p>
+                            <img
+                                src="./assets/icons/daily-task-telegram.svg"
+                                alt=""
+                                class="daily-task__icon"
+                            />
+                        </div>
+                        <div class="daily-task__task">
+                            <img
+                                src="./assets/icons/daily-task-play.svg"
+                                alt=""
+                                class="daily-task__icon"
+                            />
+                            <p class="daily-task__name">D’ task</p>
+                            <div class="daily-task__img-wrap">
+                                <img
+                                    src="./assets/imgs/daily-task/img-3.png"
+                                    alt=""
+                                    class="daily-task__img"
+                                />
+                                <img
+                                    src="./assets/imgs/daily-task/img-4.png"
+                                    alt=""
+                                    class="daily-task__img"
+                                />
+                            </div>
+                        </div>
+
+                        <div class="daily-task__task">
+                            <p class="daily-task__name">Design</p>
+                            <img
+                                src="./assets/imgs/daily-task/icon-design.png"
+                                alt=""
+                                class="daily-task__icon"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
     </body>
 </html>

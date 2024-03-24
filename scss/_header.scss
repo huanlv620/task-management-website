@@ -49,6 +49,7 @@
     }
 
     &-body {
+        position: relative;
         margin-top: 157px;
         text-align: center;
     }
@@ -152,7 +153,7 @@
     &__decor-circle {
         position: absolute;
         left: 27px;
-        top: 169px;
+        top: -62px;
 
         &:nth-of-type(1) {
             right: 0;
