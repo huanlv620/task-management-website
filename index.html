@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Task management website</title>
+        <!-- Favicon -->
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./assets/favicon/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./assets/favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#ffffff" />
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="./assets/fonts/stylesheet.css" />
+
+        <!-- Style -->
+        <link rel="stylesheet" href="./assets/css/main.css" />
+    </head>
+    <body style="height: 4000px">
+        <div class="container">
+            <header class="header">
+                <!-- Header top -->
+                <div class="header-top">
+                    <a href="#!" class="logo-wrap">
+                        <img src="./assets/imgs/logo.svg" alt="" class="logo" />
+                    </a>
+                    <div class="header__navbar">
+                        <ul class="header__list">
+                            <li class="header__item header__item">
+                                <a
+                                    href="#!"
+                                    class="header__link header__link--active"
+                                >
+                                    Home
+                                </a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#!" class="header__link">Products</a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#!" class="header__link">Guidlines</a>
+                            </li>
+                            <li class="header__item">
+                                <a href="#!" class="header__link">Review</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="btn header__btn">Sign In</button>
+                </div>
+
+                <!-- Header body -->
+                <section class="header-body">
+                    <h1 class="header__heading">
+                        Make
+                        <span class="header__heading-custom-wrap">
+                            <span class="header__heading-custom">
+                                Management
+                            </span>
+                            <span class="header__decor header__decor-1"></span>
+                            <span class="header__decor header__decor-2"></span>
+                        </span>
+                        Way More Easier Than Ever
+                    </h1>
+                    <p class="header__sub-heading">
+                        The online collaborative management platform to bring
+                        more efficiency and performace
+                    </p>
+                    <div class="header__row">
+                        <button class="btn header__request-demo">
+                            Request Demo
+                        </button>
+                        <button class="btn header__contact">Contact Us</button>
+                    </div>
+                    <div class="decor-circle header__decor-circle">
+                        <div class="decor-circle__item"></div>
+                        <div class="decor-circle__item"></div>
+                        <div class="decor-circle__item"></div>
+                        <div class="decor-circle__item"></div>
+                    </div>
+                    <div class="decor-circle header__decor-circle">
+                        <div class="decor-circle__item"></div>
+                        <div class="decor-circle__item"></div>
+                        <div class="decor-circle__item"></div>
+                        <div class="decor-circle__item"></div>
+                    </div>
+                </section>
+
+                <div class="dashboard-wrap">
+                    <section class="dashboard">
+                        <div class="dashboard__left">
+                            <div class="dashboard__name-wrap">
+                                <img
+                                    src="./assets/icons/more.svg"
+                                    alt=""
+                                    class="dashboard__icon"
+                                />
+                                <img
+                                    src="./assets/icons/dashboard.svg"
+                                    alt=""
+                                    class="dashboard__icon"
+                                />
+                                <p class="dashboard__name">Dashboard</p>
+                            </div>
+                            <div class="dashboard-collections">
+                                <h2 class="dashboard-collections__heading">
+                                    Collections
+                                </h2>
+                                <ul class="dashboard-collections__list">
+                                    <li class="dashboard-collections__item">
+                                        School
+                                    </li>
+                                    <li class="dashboard-collections__item">
+                                        Personal
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="dashboard__body">
+                            <div class="dashboard__body-left">
+                                <div class="dashboard__row">
+                                    <img
+                                        src="./assets/icons/arrow-back.svg"
+                                        alt=""
+                                        class="dashboard__icon"
+                                    />
+                                    <h3 class="dashboard__title">School</h3>
+                                </div>
+                                <div class="dashboard__icon-wrap">
+                                    <img
+                                        src="./assets/icons/filter.svg"
+                                        alt=""
+                                        class="dashboard__icon"
+                                    />
+                                    Sort
+                                </div>
+                                <ul class="list-task">
+                                    <li class="list-task__item">
+                                        Finish the Easay collaboration
+                                    </li>
+                                    <li class="list-task__item">
+                                        Do the math for next monday
+                                    </li>
+                                    <li class="list-task__item">
+                                        Read the next chapter of the book
+                                    </li>
+                                    <li class="list-task__item">
+                                        Send the collabaration files to jerusha
+                                    </li>
+                                    <li class="list-task__item">
+                                        Finish the powerpoint presentation
+                                    </li>
+                                    <li class="list-task__item">Add task</li>
+                                </ul>
+                            </div>
+
+                            <div class="dashboard__body-right">
+                                <div class="dashboard__icon-body-right-wrap">
+                                    <img
+                                        src="./assets/icons/contact-us.svg"
+                                        alt=""
+                                        class="dashboard__icon dashboard__icon-body-right"
+                                    />
+                                </div>
+
+                                <h3
+                                    class="dashboard__title dashboard__title-daily-task"
+                                >
+                                    Daily task.
+                                </h3>
+
+                                <div class="dashboard__img-wrap">
+                                    <img
+                                        src="./assets/imgs/daskboard/img-1.png"
+                                        alt=""
+                                        class="dashboard__img"
+                                    />
+                                    <button class="dashboard__play"></button>
+                                </div>
+                            </div>
+                        </div>
+                        <img
+                            src="./assets/imgs/daskboard/decor-1.svg"
+                            alt=""
+                            class="dashboard__decor"
+                        />
+                    </section>
+
+                    <!-- Collection -->
+                    <section class="collection">
+                        <h3 class="collection__heading">Collections</h3>
+                        <!-- collection-item-1 -->
+                        <section class="collection-item">
+                            <div class="collection-item__row">
+                                <div class="collection-item__box"></div>
+                                <div class="collection-item__body">
+                                    <h4 class="collection-item__heading">
+                                        School
+                                    </h4>
+                                    <p class="collection-item__desc">
+                                        4 task plus tomorrow.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="collection-item__bottom">
+                                <div class="collection-item__line"></div>
+                                <span class="collection-item__text">1/3</span>
+                            </div>
+                        </section>
+
+                        <!-- collection-item-2 -->
+                        <section class="collection-item">
+                            <div class="collection-item__row">
+                                <div class="collection-item__box"></div>
+                                <div class="collection-item__body">
+                                    <h4 class="collection-item__heading">
+                                        Personal
+                                    </h4>
+                                    <p class="collection-item__desc">
+                                        1 task plus today.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="collection-item__bottom">
+                                <div class="collection-item__line"></div>
+                                <span class="collection-item__text">7/10</span>
+                            </div>
+                        </section>
+
+                        <!-- collection-item-3 -->
+                        <section class="collection-item">
+                            <div class="collection-item__row">
+                                <div class="collection-item__box"></div>
+                                <div class="collection-item__body">
+                                    <h4 class="collection-item__heading">
+                                        Design
+                                    </h4>
+                                    <p class="collection-item__desc">
+                                        3 task plus rewt week.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="collection-item__bottom">
+                                <div class="collection-item__line"></div>
+                                <span class="collection-item__text">1/3</span>
+                            </div>
+                        </section>
+
+                        <div class="decor-circle collection__decor-circle">
+                            <div class="decor-circle__item"></div>
+                        </div>
+                    </section>
+                </div>
+            </header>
+
+            <main>
+                <section class="service">
+                    <!-- Item 1 -->
+                    <section class="service-item">
+                        <a href="#!" class="service-item__img-wrap">
+                            <img
+                                src="./assets/imgs/service/img-1.png"
+                                alt=""
+                                class="service-item__img"
+                            />
+                        </a>
+                        <a href="#!">
+                            <h2 class="service-item__heading">
+                                Structured Reports
+                            </h2>
+                        </a>
+                        <p class="service-item__desc">
+                            Sed rhoncus sit sed tellus donec lorem lectus nunc,
+                            ornare
+                        </p>
+                    </section>
+
+                    <!-- Item 1 -->
+                    <section class="service-item">
+                        <a href="#!" class="service-item__img-wrap">
+                            <img
+                                src="./assets/imgs/service/img-2.png"
+                                alt=""
+                                class="service-item__img"
+                            />
+                        </a>
+                        <a href="#!">
+                            <h2 class="service-item__heading">
+                                Cloud System
+                            </h2></a
+                        >
+                        <p class="service-item__desc">
+                            Sed rhoncus sit sed tellus donec lorem lectus nunc,
+                            ornare
+                        </p>
+                    </section>
+
+                    <!-- Item 3 -->
+                    <section class="service-item">
+                        <a href="#!" class="service-item__img-wrap">
+                            <img
+                                src="./assets/imgs/service/img-3.png"
+                                alt=""
+                                class="service-item__img"
+                            />
+                        </a>
+                        <a href="#!">
+                            <h2 class="service-item__heading">
+                                24/7 Support
+                            </h2></a
+                        >
+                        <p class="service-item__desc">
+                            Sed rhoncus sit sed tellus donec lorem lectus nunc,
+                            ornare
+                        </p>
+                    </section>
+                </section>
+            </main>
+        </div>
+    </body>
+</html>

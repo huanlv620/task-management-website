@@ -1,0 +1,70 @@
+.service {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 142px;
+    margin-top: 140px;
+    padding: 70px 50px 50px;
+    flex-shrink: 0;
+    border-radius: 27px;
+    background: #282c30;
+
+    &-item {
+        flex: 1;
+        text-align: center;
+
+        &__img-wrap {
+            display: block;
+            width: 62px;
+            height: 62px;
+            margin: 0 auto;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        &__img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        &__heading {
+            margin: 30px 0 5px;
+            color: #f9f9f9;
+            font-size: 2.2rem;
+            font-weight: 600;
+            line-height: 145.455%;
+        }
+
+        &__desc {
+            width: 239px;
+            margin: 0 auto;
+            color: #858b93;
+            font-size: 1.6rem;
+            line-height: 162.5%;
+        }
+
+        &:nth-of-type(2) &__img-wrap {
+            position: relative;
+
+            &::before,
+            &::after {
+                position: absolute;
+            }
+
+            &::before {
+                content: url(../imgs/service/dash-line.svg);
+                left: -269px;
+                top: 50%;
+                translate: 0 -50%;
+            }
+
+            &::after {
+                content: url(../imgs/service/dash-line.svg);
+                right: -269px;
+                top: 50%;
+                translate: 0 -50%;
+            }
+        }
+    }
+}
