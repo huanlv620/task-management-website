@@ -137,24 +137,26 @@
     }
 
     &__task {
+        --width: 225px;
         position: absolute;
         display: flex;
         align-items: center;
         justify-content: space-between;
         padding: 0 19px;
-        width: 225px;
+        width: var(--width);
         height: 61px;
         border-radius: 5px;
         background: #27292c;
 
         &:nth-of-type(2) {
             left: 10px;
-            top: 62px;
+            top: 60px;
         }
 
         &:nth-of-type(3) {
+            --width: 199px;
             right: 0;
-            top: 55px;
+            top: 50px;
 
             .daily-task__name {
                 background: linear-gradient(
@@ -170,7 +172,7 @@
 
         &:nth-of-type(4) {
             left: -40px;
-            bottom: 88px;
+            bottom: 154px;
 
             .daily-task__name {
                 background: linear-gradient(
@@ -185,6 +187,7 @@
         }
 
         &:nth-of-type(5) {
+            --width: 199px;
             right: 0;
             bottom: 80px;
 

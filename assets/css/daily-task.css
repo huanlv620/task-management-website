@@ -109,23 +109,25 @@
   outline-offset: 70px;
 }
 .daily-task__task {
+  --width: 225px;
   position: absolute;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 19px;
-  width: 225px;
+  width: var(--width);
   height: 61px;
   border-radius: 5px;
   background: #27292c;
 }
 .daily-task__task:nth-of-type(2) {
   left: 10px;
-  top: 62px;
+  top: 60px;
 }
 .daily-task__task:nth-of-type(3) {
+  --width: 199px;
   right: 0;
-  top: 55px;
+  top: 50px;
 }
 .daily-task__task:nth-of-type(3) .daily-task__name {
   background: linear-gradient(90deg, #0cce84 3.45%, #ae8ef9 99.07%);
@@ -135,7 +137,7 @@
 }
 .daily-task__task:nth-of-type(4) {
   left: -40px;
-  bottom: 88px;
+  bottom: 154px;
 }
 .daily-task__task:nth-of-type(4) .daily-task__name {
   background: linear-gradient(93deg, #c4f566 -11.2%, #ff6e6e 123.12%);
@@ -144,6 +146,7 @@
   -webkit-text-fill-color: transparent;
 }
 .daily-task__task:nth-of-type(5) {
+  --width: 199px;
   right: 0;
   bottom: 80px;
 }
