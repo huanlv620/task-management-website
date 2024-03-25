@@ -889,4 +889,285 @@ textarea {
   align-items: center;
 }
 
+.feature {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 75px;
+  height: 657px;
+  margin-top: 140px;
+  padding: 153px 0 81px;
+  background: #191b1d;
+}
+.feature__left {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.feature__circle {
+  width: 267px;
+  height: 267px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #6aea5c 0%, #fd7566 48.53%, #ef8f00 100%);
+  filter: blur(66px);
+}
+.feature-time {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.feature-time__line {
+  width: 98px;
+  height: 378px;
+  border: 2px dashed red;
+  border-color: transparent #d0d0d0 transparent #d0d0d0;
+}
+.feature-time__line-wrap {
+  display: flex;
+  gap: 98px;
+}
+.feature-time__text {
+  flex-shrink: 0;
+  color: #f9f9f9;
+  font-size: 1.4rem;
+  line-height: 171.429%;
+}
+.feature-time__text-wrap {
+  display: flex;
+  gap: 58px;
+  margin-left: -16px;
+}
+.feature-fc__item {
+  position: absolute;
+  top: -31px;
+  left: 88px;
+  width: 203px;
+  padding: 19px 18px;
+  border-radius: 13px;
+  background: rgba(0, 0, 0, 0.7);
+}
+.feature-fc__item-wrap {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.feature-fc__item:nth-of-type(1) {
+  padding: 13px 18px;
+}
+.feature-fc__item:nth-of-type(2) {
+  right: -40px;
+  bottom: 174px;
+  top: initial;
+  left: initial;
+  width: 239px;
+}
+.feature-fc__item:nth-of-type(2) .feature-fc__text {
+  background: linear-gradient(90deg, #fd7566 1.48%, #6aea5c 101.48%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.feature-fc__item:nth-of-type(3) {
+  left: 88px;
+  bottom: 68px;
+  top: initial;
+  width: 220px;
+}
+.feature-fc__item:nth-of-type(3) .feature-fc__text {
+  background: linear-gradient(90deg, #0cce84 -3.41%, #ff2eb8 103.89%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.feature-fc__text {
+  font-size: 14px;
+  line-height: 171.429%;
+  background: linear-gradient(91deg, #f08d08 1.27%, #b88ed3 78.9%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.feature-fc__img {
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid #bdbdbd;
+}
+.feature-rish {
+  position: absolute;
+  z-index: 1;
+  left: 244px;
+  top: 103px;
+  width: 144px;
+  height: 54px;
+  padding-top: 8px;
+  border-radius: 5px;
+  flex-shrink: 0;
+  background: #afac8b;
+  text-align: center;
+}
+.feature-rish::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  translate: -50% 0;
+  display: block;
+  height: 20px;
+  width: 20px;
+  rotate: 45deg;
+  background: #afac8b;
+}
+.feature-rish__text {
+  display: block;
+  color: #f9f9f9;
+  font-family: "Public Sans";
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.feature-rish__text:nth-of-type(2) {
+  margin-top: 2px;
+  font-size: 1.2rem;
+}
+.feature__heading {
+  width: 399px;
+  color: #f9f9f9;
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 125%;
+}
+.feature__heading span {
+  background: linear-gradient(90deg, #eb9204 -33.14%, #83e868 116.38%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.feature__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 23px 26px;
+  margin-top: 50px;
+}
+.feature-item {
+  display: flex;
+  gap: 23px;
+}
+.feature-item__check {
+  position: relative;
+  flex-shrink: 0;
+  width: 20px;
+  height: 19px;
+  background: #0cce84;
+  border-radius: 7px;
+}
+.feature-item__check::after {
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: 2px;
+  display: block;
+  width: 13px;
+  height: 8px;
+  border: 2px solid;
+  border-color: transparent transparent #fff #fff;
+  rotate: -45deg;
+}
+.feature-item:nth-of-type(2) .feature-item__check {
+  background: #ef8f00;
+}
+.feature-item:nth-of-type(3) .feature-item__check {
+  background: #ae8ff9;
+}
+.feature-item:nth-of-type(4) .feature-item__check {
+  background: #ff7667;
+}
+.feature-item__heading {
+  color: #f9f9f9;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 155.556%;
+}
+.feature-item__desc {
+  margin-top: 8px;
+  color: var(--Text-Color-gray-1, #858b93);
+  font-size: 1.4rem;
+  line-height: 171.429%;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  margin-top: 140px;
+  text-align: center;
+}
+.about__heading {
+  max-width: 497px;
+  margin: 0 auto;
+  color: #f9f9f9;
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 125%;
+}
+.about__heading span {
+  background: linear-gradient(90deg, #eb9204 -33.14%, #83e868 116.38%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.about__desc {
+  max-width: 700px;
+  margin: 30px auto 0;
+  color: #858b93;
+  font-size: 1.6rem;
+  line-height: 162.5%;
+}
+.about-tab__list {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  margin: 54px auto 0;
+}
+.about-tab__item {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  width: 169px;
+  height: 46px;
+  padding: 12px 18px;
+  border-radius: 23px;
+  background: #282c30;
+  cursor: pointer;
+}
+.about-tab__item:nth-of-type(1) .about-tab__icon {
+  filter: brightness(0) saturate(100%) invert(68%) sepia(58%) saturate(5306%) hue-rotate(9deg) brightness(103%) contrast(101%);
+}
+.about-tab__item:nth-of-type(2) .about-tab__icon {
+  filter: brightness(0) saturate(100%) invert(81%) sepia(14%) saturate(4582%) hue-rotate(97deg) brightness(84%) contrast(91%);
+}
+.about-tab__item:nth-of-type(3) .about-tab__icon {
+  filter: brightness(0) saturate(100%) invert(73%) sepia(77%) saturate(3535%) hue-rotate(212deg) brightness(100%) contrast(96%);
+}
+.about-tab__item:nth-of-type(4) .about-tab__icon {
+  filter: brightness(0) saturate(100%) invert(54%) sepia(75%) saturate(470%) hue-rotate(316deg) brightness(98%) contrast(106%);
+}
+.about-tab__item:nth-of-type(5) .about-tab__icon {
+  filter: brightness(0) saturate(100%) invert(81%) sepia(14%) saturate(4582%) hue-rotate(97deg) brightness(84%) contrast(91%);
+}
+.about-tab__icon {
+  width: 22px;
+  height: 23px;
+}
+.about-tab__text {
+  color: #858b93;
+  font-size: 1.4rem;
+  line-height: 100%;
+}
+
 /*# sourceMappingURL=main.css.map */

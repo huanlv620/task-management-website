@@ -1,0 +1,99 @@
+.about {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 140px;
+    text-align: center;
+
+    &__heading {
+        max-width: 497px;
+        margin: 0 auto;
+        color: #f9f9f9;
+        font-size: 4rem;
+        font-weight: 600;
+        line-height: 125%;
+
+        & span {
+            background: linear-gradient(
+                90deg,
+                #eb9204 -33.14%,
+                #83e868 116.38%
+            );
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+
+    &__desc {
+        max-width: 700px;
+        margin: 30px auto 0;
+        color: #858b93;
+        font-size: 1.6rem;
+        line-height: 162.5%;
+    }
+
+    &-tab {
+        &__list {
+            display: flex;
+            align-items: center;
+            gap: 17px;
+            margin: 54px auto 0;
+        }
+
+        &__item {
+            display: flex;
+            align-items: center;
+            gap: 18px;
+
+            width: 169px;
+            height: 46px;
+            padding: 12px 18px;
+            border-radius: 23px;
+            background: #282c30;
+
+            cursor: pointer;
+
+            &:nth-of-type(1) .about-tab__icon {
+                filter: brightness(0) saturate(100%) invert(68%) sepia(58%)
+                    saturate(5306%) hue-rotate(9deg) brightness(103%)
+                    contrast(101%);
+            }
+
+            &:nth-of-type(2) .about-tab__icon {
+                filter: brightness(0) saturate(100%) invert(81%) sepia(14%)
+                    saturate(4582%) hue-rotate(97deg) brightness(84%)
+                    contrast(91%);
+            }
+
+            &:nth-of-type(3) .about-tab__icon {
+                filter: brightness(0) saturate(100%) invert(73%) sepia(77%)
+                    saturate(3535%) hue-rotate(212deg) brightness(100%)
+                    contrast(96%);
+            }
+
+            &:nth-of-type(4) .about-tab__icon {
+                filter: brightness(0) saturate(100%) invert(54%) sepia(75%)
+                    saturate(470%) hue-rotate(316deg) brightness(98%)
+                    contrast(106%);
+            }
+
+            &:nth-of-type(5) .about-tab__icon {
+                filter: brightness(0) saturate(100%) invert(81%) sepia(14%)
+                    saturate(4582%) hue-rotate(97deg) brightness(84%)
+                    contrast(91%);
+            }
+        }
+
+        &__icon {
+            width: 22px;
+            height: 23px;
+        }
+
+        &__text {
+            color: #858b93;
+            font-size: 1.4rem;
+            line-height: 100%;
+        }
+    }
+}
