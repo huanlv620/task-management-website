@@ -1,7 +1,7 @@
 .feature-bottom {
     display: flex;
     gap: 55px;
-    margin-top: 140px;
+    margin: 140px 0 70px;
 
     &__left {
         flex-shrink: 0;
@@ -98,12 +98,12 @@
 
     &__img-wrap {
         position: relative;
+        display: flex;
+        flex-direction: column;
         margin-top: 78px;
     }
 
     &__img {
-        position: absolute;
-        display: flex;
         flex-direction: column;
         width: 348px;
         height: 263px;
@@ -115,13 +115,11 @@
             border-box;
 
         &:nth-child(2) {
-            left: 200px;
-            top: 160px;
+            margin: -160px 0 0 200px;
         }
 
         &:nth-child(3) {
-            left: 25px;
-            top: 372px;
+            margin: -71px 0 0 25px;
         }
     }
 }
