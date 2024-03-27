@@ -1651,4 +1651,100 @@ textarea {
   line-height: 150%;
 }
 
+.testmonial {
+  margin: 140px auto 0;
+  width: 1219px;
+  overflow: hidden;
+}
+.testmonial__inner {
+  display: flex;
+  margin-left: -417px;
+}
+.testmonial__item {
+  width: 385px;
+  flex-shrink: 0;
+  padding: 29px 40px 26px;
+  border-radius: 10px;
+  border: 1px solid #282c30;
+  background: #131517;
+  transition: background 0.2s;
+  margin-left: 32px;
+}
+.testmonial__item:hover {
+  background: #282c30;
+}
+.testmonial__item:hover .testmonial__comma {
+  filter: brightness(0) saturate(100%) invert(72%) sepia(97%) saturate(2718%) hue-rotate(107deg) brightness(93%) contrast(91%);
+  rotate: 180deg;
+}
+.testmonial__item:first-child {
+  margin-left: 0;
+}
+.testmonial__comma {
+  translate: 215px 0;
+  transition: rotate 0.2s;
+}
+.testmonial__text {
+  margin: 26px 0 22px;
+  width: 304px;
+  color: #858b93;
+  font-size: 16px;
+  line-height: 162.5%;
+}
+.testmonial__bottom {
+  display: flex;
+  gap: 20px;
+}
+.testmonial__avatar {
+  width: 38px;
+  height: 38px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.testmonial__info {
+  display: flex;
+  flex-direction: column;
+}
+.testmonial__info-body {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+.testmonial__name {
+  color: #f9f9f9;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 155.556%;
+}
+.testmonial__job {
+  color: #858b93;
+  font-size: 1.6rem;
+  line-height: 150%;
+}
+.testmonial__stars {
+  margin-left: auto;
+}
+.testmonial__control {
+  display: flex;
+  justify-content: flex-end;
+  margin: 50px 16px 0 0;
+}
+.testmonial__control-item {
+  padding: 5px 15px;
+  cursor: pointer;
+}
+.testmonial__control-item:first-child img {
+  rotate: 180deg;
+}
+.testmonial__control-item:hover img {
+  filter: brightness(0) saturate(100%) invert(44%) sepia(92%) saturate(1416%) hue-rotate(15deg) brightness(110%) contrast(102%);
+}
+.testmonial__control-item:active {
+  background-color: red;
+}
+.testmonial__control img {
+  width: 13px;
+  filter: brightness(0) saturate(100%) invert(61%) sepia(2%) saturate(1468%) hue-rotate(175deg) brightness(90%) contrast(93%);
+}
+
 /*# sourceMappingURL=main.css.map */
