@@ -1,3 +1,120 @@
 .blog {
-    // display: none;
+    margin-top: 70px;
+    text-align: center;
+
+    &__heading {
+        width: 512px;
+        margin: 0 auto;
+        color: #f9f9f9;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 125%;
+
+        span {
+            background: linear-gradient(
+                90deg,
+                #eb9204 -33.14%,
+                #83e868 116.38%
+            );
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 26px;
+        margin-top: 56px;
+    }
+}
+
+.blog-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 21px 20px 28px;
+    border-radius: 12px;
+    background: #282c30;
+
+    &:nth-child(2) .blog-item__process::after {
+        background: #0cce84;
+        width: 100px;
+    }
+
+    &:nth-child(2) .blog-item__arrow {
+        filter: brightness(0) saturate(100%) invert(64%) sepia(65%)
+            saturate(3256%) hue-rotate(114deg) brightness(100%) contrast(91%);
+    }
+
+    &:nth-child(3) .blog-item__process::after {
+        background: #ef8f00;
+        width: 40px;
+    }
+
+    &:nth-child(3) .blog-item__arrow {
+        filter: brightness(0) saturate(100%) invert(51%) sepia(91%)
+            saturate(1749%) hue-rotate(9deg) brightness(102%) contrast(105%);
+    }
+
+    &__img-wrap {
+        position: relative;
+        padding-top: 83%;
+    }
+
+    &__img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    &__name-work {
+        display: none;
+    }
+
+    &__desc {
+        width: 190px;
+        margin: 52px auto 18px;
+        color: #f9f9f9;
+        font-size: 1.6rem;
+        line-height: 162.5%;
+    }
+
+    &__process {
+        position: relative;
+        width: 238px;
+        height: 7px;
+        margin: 0 auto;
+        border-radius: 5px;
+        background: #131517;
+
+        &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+
+            width: 60px;
+            height: 7px;
+            border-radius: 5px;
+            background: #ff7667;
+        }
+    }
+
+    &__view-all {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 7px;
+        margin-top: 24px;
+        color: #858b93;
+        font-size: 1.2rem;
+        font-weight: 600;
+        line-height: 150%;
+    }
 }
