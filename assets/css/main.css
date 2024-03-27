@@ -1441,4 +1441,110 @@ textarea {
   font-weight: 600;
 }
 
+.feature-bottom {
+  display: flex;
+  gap: 55px;
+  margin-top: 140px;
+}
+.feature-bottom__left {
+  flex-shrink: 0;
+}
+.feature-bottom__heading {
+  max-width: 493px;
+  color: #f9f9f9;
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 125%;
+}
+.feature-bottom__heading span {
+  background: linear-gradient(90deg, #eb9204 -33.14%, #83e868 116.38%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.feature-bottom__list {
+  margin-top: 67px;
+}
+.feature-bottom__item {
+  width: 493px;
+  height: 158px;
+  padding: 29px 40px;
+  border-radius: 15px;
+  border: 2px solid #282c30;
+}
+.feature-bottom__item:hover {
+  cursor: pointer;
+  background: #282c30;
+}
+.feature-bottom__item:nth-child(2) .feature-bottom__title::after {
+  background: #0cce84;
+}
+.feature-bottom__item:nth-child(3) .feature-bottom__title::after {
+  background: #ff7667;
+}
+.feature-bottom__item + .feature-bottom__item {
+  margin-top: 16px;
+}
+.feature-bottom__title {
+  position: relative;
+  display: inline-block;
+  color: #f9f9f9;
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+.feature-bottom__title::after {
+  content: "";
+  position: absolute;
+  right: -14px;
+  bottom: 5px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ef8f00;
+}
+.feature-bottom__desc {
+  margin-top: 9px;
+  color: #858b93;
+  font-size: 16px;
+  line-height: 150%;
+}
+.feature-bottom__btn {
+  margin: 27px 0 0 237px;
+  width: 218px;
+  height: 68px;
+  border-radius: 12px;
+  border: 2px solid #36383e;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 100%;
+  background: linear-gradient(90deg, #eb9204 -33.14%, #83e868 116.38%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.feature-bottom__img-wrap {
+  position: relative;
+  margin-top: 78px;
+}
+.feature-bottom__img {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 348px;
+  height: 263px;
+  object-fit: cover;
+  border-radius: 31px;
+  border: 3px solid transparent;
+  box-shadow: 0px 4px 89px 27px rgba(0, 0, 0, 0.4);
+  background: linear-gradient(to right, #a7ef4c, #ff5435, #ef8f00) border-box;
+}
+.feature-bottom__img:nth-child(2) {
+  left: 200px;
+  top: 160px;
+}
+.feature-bottom__img:nth-child(3) {
+  left: 25px;
+  top: 372px;
+}
+
 /*# sourceMappingURL=main.css.map */
