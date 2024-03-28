@@ -116,5 +116,9 @@
         font-size: 1.2rem;
         font-weight: 600;
         line-height: 150%;
+
+        &:hover {
+            text-decoration: underline;
+        }
     }
 }
