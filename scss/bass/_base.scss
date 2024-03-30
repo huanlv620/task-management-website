@@ -16,6 +16,7 @@ body {
     font-size: 1.6rem;
     font-family: Sora, sans-serif;
     background: #131517;
+    text-rendering: optimizeSpeed;
 }
 
 a {
@@ -54,6 +55,24 @@ textarea {
     width: 1140px;
     margin-left: auto;
     margin-right: auto;
+
+    &-small {
+        @extend .container;
+        width: 1096px;
+    }
+}
+
+h2.heading {
+    color: #f9f9f9;
+    font-size: 4rem;
+    font-weight: 600;
+
+    span {
+        background: linear-gradient(90deg, #eb9204 -33.14%, #83e868 116.38%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 }
 
 .btn {
@@ -75,9 +94,42 @@ textarea {
     }
 }
 
+.text {
+    color: #858b93;
+    font-size: 1.6rem;
+    line-height: 162.5%;
+}
+
 .separate {
     margin: 0 auto;
     width: 1008.5px;
     height: 1px;
     background: #282c30;
+}
+
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 1);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp.line-2 {
+    --line-clamp: 2;
+}
+
+.line-clamp.line-3 {
+    --line-clamp: 3;
+}
+
+.line-clamp.line-4 {
+    --line-clamp: 4;
+}
+
+.line-clamp.line-7 {
+    --line-clamp: 7;
+}
+
+.break-all {
+    word-break: break-all;
 }

@@ -8,29 +8,11 @@
     &__heading {
         max-width: 497px;
         margin: 0 auto;
-        color: #f9f9f9;
-        font-size: 4rem;
-        font-weight: 600;
-        line-height: 125%;
-
-        & span {
-            background: linear-gradient(
-                90deg,
-                #eb9204 -33.14%,
-                #83e868 116.38%
-            );
-            background-clip: text;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
     }
 
     &__desc {
         max-width: 700px;
         margin: 30px auto 0;
-        color: #858b93;
-        font-size: 1.6rem;
-        line-height: 162.5%;
     }
 
     &-tab {

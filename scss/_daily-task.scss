@@ -3,7 +3,6 @@
     width: 1160px;
     margin-left: auto;
     margin-right: auto;
-    // background: #272633;
 
     &__inner {
         display: grid;
@@ -13,28 +12,11 @@
 
     &__heading {
         max-width: 368px;
-        color: #f9f9f9;
-        font-size: 4rem;
-        font-weight: 600;
-
-        &-custom {
-            background: linear-gradient(
-                90deg,
-                #eb9204 -33.14%,
-                #83e868 116.38%
-            );
-            background-clip: text;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
     }
 
     &__desc {
         max-width: 537px;
         margin: 22px 0 86px;
-        color: #858b93;
-        font-size: 1.6rem;
-        line-height: 162.5%;
     }
 
     &__list {

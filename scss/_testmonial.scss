@@ -5,12 +5,13 @@
 
     &__inner {
         display: flex;
-        margin-left: -417px;
     }
 
     &__item {
-        width: 385px;
         flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+        width: 385px;
         padding: 29px 40px 26px;
         border-radius: 10px;
         border: 1px solid #282c30;
@@ -33,6 +34,7 @@
         }
     }
     &__comma {
+        width: 49px;
         translate: 215px 0;
         transition: rotate 0.2s;
     }
@@ -40,14 +42,12 @@
     &__text {
         margin: 26px 0 22px;
         width: 304px;
-        color: #858b93;
-        font-size: 16px;
-        line-height: 162.5%;
     }
 
     &__bottom {
         display: flex;
         gap: 20px;
+        margin-top: auto;
     }
 
     &__avatar {
@@ -102,10 +102,6 @@
                 filter: brightness(0) saturate(100%) invert(44%) sepia(92%)
                     saturate(1416%) hue-rotate(15deg) brightness(110%)
                     contrast(102%);
-            }
-
-            &:active {
-                background-color: red;
             }
         }
 

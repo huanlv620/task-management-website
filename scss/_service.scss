@@ -1,13 +1,17 @@
 .service {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 142px;
-    margin-top: 140px;
-    padding: 70px 50px 50px;
-    flex-shrink: 0;
-    border-radius: 27px;
-    background: #282c30;
+    padding: 0 24px;
+
+    &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 142px;
+        margin-top: 140px;
+        padding: 70px 50px 50px;
+        flex-shrink: 0;
+        border-radius: 27px;
+        background: #282c30;
+    }
 
     &-item {
         flex: 1;
@@ -39,9 +43,6 @@
         &__desc {
             width: 239px;
             margin: 0 auto;
-            color: #858b93;
-            font-size: 1.6rem;
-            line-height: 162.5%;
         }
 
         &:nth-of-type(2) &__img-wrap {

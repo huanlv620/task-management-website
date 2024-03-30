@@ -40,7 +40,8 @@
         <!-- Style -->
         <link rel="stylesheet" href="./assets/css/main.css" />
     </head>
-    <body style="height: auto">
+    <body>
+        <!-- Header -->
         <header class="header">
             <div class="container">
                 <!-- Header top -->
@@ -85,15 +86,17 @@
                         </span>
                         Way More Easier Than Ever
                     </h1>
-                    <p class="header__sub-heading">
+                    <p class="text header__sub-heading">
                         The online collaborative management platform to bring
                         more efficiency and performace
                     </p>
                     <div class="header__row">
-                        <button class="btn header__request-demo">
+                        <button class="btn header__request-demo text">
                             Request Demo
                         </button>
-                        <button class="btn header__contact">Contact Us</button>
+                        <button class="btn header__contact text">
+                            Contact Us
+                        </button>
                     </div>
                     <div class="decor-circle header__decor-circle">
                         <div class="decor-circle__item"></div>
@@ -278,69 +281,83 @@
             </div>
         </header>
 
+        <!-- Main -->
         <main>
             <!-- Service -->
             <div class="container">
                 <section class="service">
-                    <!-- Item 1 -->
-                    <section class="service-item">
-                        <a href="#!" class="service-item__img-wrap">
-                            <img
-                                src="./assets/imgs/service/img-1.png"
-                                alt=""
-                                class="service-item__img"
-                            />
-                        </a>
-                        <a href="#!">
-                            <h2 class="service-item__heading">
-                                Structured Reports
-                            </h2>
-                        </a>
-                        <p class="service-item__desc">
-                            Sed rhoncus sit sed tellus donec lorem lectus nunc,
-                            ornare
-                        </p>
-                    </section>
+                    <div class="service__inner">
+                        <!-- Item 1 -->
+                        <section class="service-item">
+                            <a href="#!" class="service-item__img-wrap">
+                                <img
+                                    loading="lazy"
+                                    src="./assets/imgs/service/img-1.png"
+                                    alt=""
+                                    class="service-item__img"
+                                />
+                            </a>
+                            <a href="#!">
+                                <h2 class="service-item__heading break-all">
+                                    Structured Reports
+                                </h2>
+                            </a>
+                            <p
+                                class="text service-item__desc line-clamp line-3"
+                            >
+                                Sed rhoncus sit sed tellus donec lorem lectus
+                                nunc, ornare Sed rhoncus sit sed tellus donec
+                                lorem lectus nunc, ornare Sed rhoncus sit sed
+                                tellus donec lorem lectus nunc, ornare
+                            </p>
+                        </section>
 
-                    <!-- Item 1 -->
-                    <section class="service-item">
-                        <a href="#!" class="service-item__img-wrap">
-                            <img
-                                src="./assets/imgs/service/img-2.png"
-                                alt=""
-                                class="service-item__img"
-                            />
-                        </a>
-                        <a href="#!">
-                            <h2 class="service-item__heading">
-                                Cloud System
-                            </h2></a
-                        >
-                        <p class="service-item__desc">
-                            Sed rhoncus sit sed tellus donec lorem lectus nunc,
-                            ornare
-                        </p>
-                    </section>
+                        <!-- Item 2 -->
+                        <section class="service-item">
+                            <a href="#!" class="service-item__img-wrap">
+                                <img
+                                    loading="lazy"
+                                    src="./assets/imgs/service/img-2.png"
+                                    alt=""
+                                    class="service-item__img"
+                                />
+                            </a>
+                            <a href="#!">
+                                <h2 class="service-item__heading">
+                                    Cloud System
+                                </h2></a
+                            >
+                            <p
+                                class="text service-item__desc line-clamp line-3"
+                            >
+                                Sed rhoncus sit sed tellus donec lorem lectus
+                                nunc, ornare
+                            </p>
+                        </section>
 
-                    <!-- Item 3 -->
-                    <section class="service-item">
-                        <a href="#!" class="service-item__img-wrap">
-                            <img
-                                src="./assets/imgs/service/img-3.png"
-                                alt=""
-                                class="service-item__img"
-                            />
-                        </a>
-                        <a href="#!">
-                            <h2 class="service-item__heading">
-                                24/7 Support
-                            </h2></a
-                        >
-                        <p class="service-item__desc">
-                            Sed rhoncus sit sed tellus donec lorem lectus nunc,
-                            ornare
-                        </p>
-                    </section>
+                        <!-- Item 3 -->
+                        <section class="service-item">
+                            <a href="#!" class="service-item__img-wrap">
+                                <img
+                                    loading="lazy"
+                                    src="./assets/imgs/service/img-3.png"
+                                    alt=""
+                                    class="service-item__img"
+                                />
+                            </a>
+                            <a href="#!">
+                                <h2 class="service-item__heading">
+                                    24/7 Support
+                                </h2></a
+                            >
+                            <p
+                                class="text service-item__desc line-clamp line-3"
+                            >
+                                Sed rhoncus sit sed tellus donec lorem lectus
+                                nunc, ornare
+                            </p>
+                        </section>
+                    </div>
                 </section>
             </div>
 
@@ -349,19 +366,24 @@
                 <div class="daily-task__inner">
                     <!-- Info -->
                     <div class="daily-task__info">
-                        <h2 class="daily-task__heading">
+                        <h2 class="heading daily-task__heading">
                             Okay,
-                            <span class="daily-task__heading-custom">
-                                Let’s
-                            </span>
+                            <span> Let’s </span>
                             see D’task in numbers
                         </h2>
-                        <p class="daily-task__desc">
+                        <p
+                            class="text daily-task__desc line-clamp line-4 break-all"
+                        >
                             Powering a productive team means using a powerful
                             tool (and plenty of snacks). From meetings and
                             projects to events and goal setting, D'taak
                             intuitive features give any team the ability to
                             quickly set up and customize workflows for just
+                            about anythingPowering a productive team means using
+                            a powerful tool (and plenty of snacks). From
+                            meetings and projects to events and goal setting,
+                            D'taak intuitive features give any team the ability
+                            to quickly set up and customize workflows for just
                             about anything
                         </p>
                         <div class="daily-task__list">
@@ -411,6 +433,7 @@
                         <div class="daily-task__task">
                             <p class="daily-task__name">Online Support</p>
                             <img
+                                loading="lazy"
                                 src="./assets/icons/daily-task-play.svg"
                                 alt=""
                                 class="daily-task__icon"
@@ -419,6 +442,7 @@
                         <div class="daily-task__task">
                             <p class="daily-task__name">Exercitation</p>
                             <img
+                                loading="lazy"
                                 src="./assets/icons/daily-task-telegram.svg"
                                 alt=""
                                 class="daily-task__icon"
@@ -426,6 +450,7 @@
                         </div>
                         <div class="daily-task__task">
                             <img
+                                loading="lazy"
                                 src="./assets/icons/daily-task-play.svg"
                                 alt=""
                                 class="daily-task__icon"
@@ -433,11 +458,13 @@
                             <p class="daily-task__name">D’ task</p>
                             <div class="daily-task__img-wrap">
                                 <img
+                                    loading="lazy"
                                     src="./assets/imgs/daily-task/img-3.png"
                                     alt=""
                                     class="daily-task__img"
                                 />
                                 <img
+                                    loading="lazy"
                                     src="./assets/imgs/daily-task/img-4.png"
                                     alt=""
                                     class="daily-task__img"
@@ -448,6 +475,7 @@
                         <div class="daily-task__task">
                             <p class="daily-task__name">Design</p>
                             <img
+                                loading="lazy"
                                 src="./assets/imgs/daily-task/icon-design.png"
                                 alt=""
                                 class="daily-task__icon"
@@ -457,7 +485,7 @@
                 </div>
             </section>
 
-            <div class="container">
+            <div class="container-small">
                 <!-- Feature -->
                 <section class="feature">
                     <!-- Left -->
@@ -483,6 +511,7 @@
                             <div class="feature-fc__item">
                                 <div class="feature-fc__item-wrap">
                                     <img
+                                        loading="lazy"
                                         src="https://images.unsplash.com/photo-1710587384959-3541e5e27999?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHx8"
                                         alt=""
                                         class="feature-fc__img"
@@ -518,7 +547,7 @@
 
                     <!-- Body -->
                     <section class="feature__body">
-                        <h2 class="feature__heading">
+                        <h2 class="heading feature__heading">
                             Features to help your <span>team succeed</span>
                         </h2>
                         <div class="feature__list">
@@ -583,10 +612,10 @@
 
                 <!-- About -->
                 <section class="about">
-                    <h2 class="about__heading">
+                    <h2 class="heading about__heading">
                         Integrated <span>designed</span> for product teams
                     </h2>
-                    <p class="about__desc">
+                    <p class="text about__desc">
                         Exepteur sint occaecat cupidatat non proident, sunt in
                         culpa que official deserunt mollit laborum - semper quis
                         lectus nulla.
@@ -596,6 +625,7 @@
                     <div class="about-tab__list">
                         <div class="about-tab__item">
                             <img
+                                loading="lazy"
                                 src="./assets/icons/hammer.svg"
                                 alt=""
                                 class="about-tab__icon"
@@ -604,6 +634,7 @@
                         </div>
                         <div class="about-tab__item">
                             <img
+                                loading="lazy"
                                 src="./assets/icons/pen.svg"
                                 alt=""
                                 class="about-tab__icon"
@@ -612,6 +643,7 @@
                         </div>
                         <div class="about-tab__item">
                             <img
+                                loading="lazy"
                                 src="./assets/icons/person-run.svg"
                                 alt=""
                                 class="about-tab__icon"
@@ -620,6 +652,7 @@
                         </div>
                         <div class="about-tab__item">
                             <img
+                                loading="lazy"
                                 src="./assets/icons/clip-board-list.svg"
                                 alt=""
                                 class="about-tab__icon"
@@ -628,6 +661,7 @@
                         </div>
                         <div class="about-tab__item">
                             <img
+                                loading="lazy"
                                 src="./assets/icons/clip-board-check.svg"
                                 alt=""
                                 class="about-tab__icon"
@@ -662,16 +696,19 @@
                                     </div>
                                     <div class="about-dashboard__img-wrap">
                                         <img
+                                            loading="lazy"
                                             src="./assets/imgs/about/img-1.avif"
                                             alt=""
                                             class="about-dashboard__img"
                                         />
                                         <img
+                                            loading="lazy"
                                             src="./assets/imgs/about/img-2.avif"
                                             alt=""
                                             class="about-dashboard__img"
                                         />
                                         <img
+                                            loading="lazy"
                                             src="./assets/imgs/about/img-3.avif"
                                             alt=""
                                             class="about-dashboard__img"
@@ -686,7 +723,6 @@
                                         name="about-dashboard"
                                         id=""
                                         hidden
-                                        checked
                                     />
                                     <div class="about-dashboard__body">
                                         <p class="about-dashboard__title">
@@ -698,16 +734,19 @@
                                     </div>
                                     <div class="about-dashboard__img-wrap">
                                         <img
+                                            loading="lazy"
                                             src="./assets/imgs/about/img-4.avif"
                                             alt=""
                                             class="about-dashboard__img"
                                         />
                                         <img
+                                            loading="lazy"
                                             src="./assets/imgs/about/img-5.webp"
                                             alt=""
                                             class="about-dashboard__img"
                                         />
                                         <img
+                                            loading="lazy"
                                             src="./assets/imgs/about/img-6.avif"
                                             alt=""
                                             class="about-dashboard__img"
@@ -733,16 +772,19 @@
                                     </div>
                                     <div class="about-dashboard__img-wrap">
                                         <img
+                                            loading="lazy"
                                             src="./assets/imgs/about/img-7.avif"
                                             alt=""
                                             class="about-dashboard__img"
                                         />
                                         <img
+                                            loading="lazy"
                                             src="./assets/imgs/about/img-8.webp"
                                             alt=""
                                             class="about-dashboard__img"
                                         />
                                         <img
+                                            loading="lazy"
                                             src="./assets/imgs/about/img-9.webp"
                                             alt=""
                                             class="about-dashboard__img"
@@ -778,6 +820,7 @@
 
                             <div class="about-daily-task__bottom">
                                 <img
+                                    loading="lazy"
                                     src="./assets/imgs/about/img-10.svg"
                                     alt=""
                                     class="about-daily-task__img"
@@ -789,6 +832,7 @@
                                         D’task
                                     </h3>
                                     <img
+                                        loading="lazy"
                                         src="./assets/imgs/about/img-11.svg"
                                         alt=""
                                         class="about-daily-task__img"
@@ -817,6 +861,7 @@
                             <ul class="about-team__list">
                                 <li class="about-team__item">
                                     <img
+                                        loading="lazy"
                                         src="assets/imgs/about/member-1.avif"
                                         alt=""
                                         class="about-team__img"
@@ -825,6 +870,7 @@
                                 </li>
                                 <li class="about-team__item">
                                     <img
+                                        loading="lazy"
                                         src="assets/imgs/about/member-2.avif"
                                         alt=""
                                         class="about-team__img"
@@ -833,6 +879,7 @@
                                 </li>
                                 <li class="about-team__item">
                                     <img
+                                        loading="lazy"
                                         src="assets/imgs/about/member-3.avif"
                                         alt=""
                                         class="about-team__img"
@@ -841,6 +888,7 @@
                                 </li>
                                 <li class="about-team__item">
                                     <img
+                                        loading="lazy"
                                         src="assets/imgs/about/member-4.avif"
                                         alt=""
                                         class="about-team__img"
@@ -849,6 +897,7 @@
                                 </li>
                                 <li class="about-team__item">
                                     <img
+                                        loading="lazy"
                                         src="assets/imgs/about/member-5.avif"
                                         alt=""
                                         class="about-team__img"
@@ -865,7 +914,7 @@
                 <section class="feature-bottom">
                     <!-- left -->
                     <section class="feature-bottom__left">
-                        <h2 class="feature-bottom__heading">
+                        <h2 class="heading feature-bottom__heading">
                             From the <span>big picture</span> to every tiny
                             detail, we got you covered.
                         </h2>
@@ -874,17 +923,23 @@
                                 <h3 class="feature-bottom__title">
                                     For developers
                                 </h3>
-                                <p class="feature-bottom__desc">
+                                <p
+                                    class="text feature-bottom__desc line-clamp line-2"
+                                >
                                     Exepteur sint occaecat cupidatat non
                                     proident, mollit laborum - semper quis
-                                    lectus nulla.
+                                    lectus nulla. Exepteur sint occaecat
+                                    cupidatat non proident, mollit laborum -
+                                    semper quis lectus nulla. Exepteur sint
+                                    occaecat cupidatat non proident, mollit
+                                    laborum - semper quis lectus nulla.
                                 </p>
                             </li>
                             <li class="feature-bottom__item">
                                 <h3 class="feature-bottom__title">
                                     For designers
                                 </h3>
-                                <p class="feature-bottom__desc">
+                                <p class="text feature-bottom__desc">
                                     Exepteur sint occaecat cupidatat non
                                     proident, mollit laborum - semper quis
                                     lectus nulla.
@@ -892,7 +947,7 @@
                             </li>
                             <li class="feature-bottom__item">
                                 <h3 class="feature-bottom__title">For teams</h3>
-                                <p class="feature-bottom__desc">
+                                <p class="text feature-bottom__desc">
                                     Exepteur sint occaecat cupidatat non
                                     proident, mollit laborum - semper quis
                                     lectus nulla.
@@ -903,19 +958,24 @@
 
                     <!-- right -->
                     <div class="feature-bottom__right">
-                        <button class="feature-bottom__btn">Explore Now</button>
+                        <button class="btn feature-bottom__btn">
+                            Explore Now
+                        </button>
                         <div class="feature-bottom__img-wrap">
                             <img
+                                loading="lazy"
                                 src="./assets/imgs/feature/feature-bottom-1.avif"
                                 alt=""
                                 class="feature-bottom__img"
                             />
                             <img
+                                loading="lazy"
                                 src="./assets/imgs/feature/feature-bottom-2.webp"
                                 alt=""
                                 class="feature-bottom__img"
                             />
                             <img
+                                loading="lazy"
                                 src="./assets/imgs/feature/feature-bottom-3.webp"
                                 alt=""
                                 class="feature-bottom__img"
@@ -928,29 +988,39 @@
 
                 <!-- Blog -->
                 <section class="blog">
-                    <h2 class="blog__heading">
+                    <h2 class="heading blog__heading">
                         <span>Refreshing</span> news for developers and desigers
                     </h2>
                     <div class="blog__list">
                         <!-- item 1 -->
                         <article class="blog-item">
-                            <div class="blog-item__img-wrap">
-                                <img
-                                    src="./assets/imgs/blog/img-1.png"
-                                    alt=""
-                                    class="blog-item__img"
-                                />
-                                <h3 class="blog-item__name-work">
-                                    Product Engineer
-                                </h3>
-                            </div>
-                            <p class="blog-item__desc">
-                                The quick brown fox jumped over the lazy dog.
-                            </p>
+                            <a href="#!">
+                                <div class="blog-item__img-wrap">
+                                    <h3 class="blog-item__name-work">
+                                        Product Engineer
+                                    </h3>
+                                    <img
+                                        loading="lazy"
+                                        src="./assets/imgs/blog/img-1.png"
+                                        alt=""
+                                        class="blog-item__img"
+                                    />
+                                </div>
+                                <p
+                                    class="text blog-item__desc line-clamp line-3"
+                                >
+                                    The quick brown fox jumped over the lazy
+                                    dog. The quick brown fox jumped over the
+                                    lazy dog. The quick brown fox jumped over
+                                    the lazy dog. The quick brown fox jumped
+                                    over the lazy dog.
+                                </p>
+                            </a>
                             <div class="blog-item__process"></div>
                             <a href="#!" class="blog-item__view-all">
                                 View All
                                 <img
+                                    loading="lazy"
                                     src="./assets/icons/arrow-right.svg"
                                     alt=""
                                     class="blog-item__arrow"
@@ -960,23 +1030,30 @@
 
                         <!-- item 2 -->
                         <article class="blog-item">
-                            <div class="blog-item__img-wrap">
-                                <img
-                                    src="./assets/imgs/blog/img-2.png"
-                                    alt=""
-                                    class="blog-item__img"
-                                />
-                                <h3 class="blog-item__name-work">
-                                    Desing Engineer
-                                </h3>
-                            </div>
-                            <p class="blog-item__desc">
-                                The quick brown fox jumped over the lazy dog.
-                            </p>
+                            <a href="#!">
+                                <div class="blog-item__img-wrap">
+                                    <img
+                                        loading="lazy"
+                                        src="./assets/imgs/blog/img-2.png"
+                                        alt=""
+                                        class="blog-item__img"
+                                    />
+                                    <h3 class="blog-item__name-work">
+                                        Desing Engineer
+                                    </h3>
+                                </div>
+                                <p
+                                    class="text blog-item__desc line-clamp line-3"
+                                >
+                                    The quick brown fox jumped over the lazy
+                                    dog.
+                                </p>
+                            </a>
                             <div class="blog-item__process"></div>
                             <a href="#!" class="blog-item__view-all">
                                 View All
                                 <img
+                                    loading="lazy"
                                     src="./assets/icons/arrow-right.svg"
                                     alt=""
                                     class="blog-item__arrow"
@@ -986,23 +1063,30 @@
 
                         <!-- item 3 -->
                         <article class="blog-item">
-                            <div class="blog-item__img-wrap">
-                                <img
-                                    src="./assets/imgs/blog/img-3.png"
-                                    alt=""
-                                    class="blog-item__img"
-                                />
-                                <h3 class="blog-item__name-work">
-                                    Tutorial Engineer
-                                </h3>
-                            </div>
-                            <p class="blog-item__desc">
-                                The quick brown fox jumped over the lazy dog.
-                            </p>
+                            <a href="#!">
+                                <div class="blog-item__img-wrap">
+                                    <img
+                                        loading="lazy"
+                                        src="./assets/imgs/blog/img-3.png"
+                                        alt=""
+                                        class="blog-item__img"
+                                    />
+                                    <h3 class="blog-item__name-work">
+                                        Tutorial Engineer
+                                    </h3>
+                                </div>
+                                <p
+                                    class="text blog-item__desc line-clamp line-3"
+                                >
+                                    The quick brown fox jumped over the lazy
+                                    dog.
+                                </p>
+                            </a>
                             <div class="blog-item__process"></div>
                             <a href="#!" class="blog-item__view-all">
                                 View All
                                 <img
+                                    loading="lazy"
                                     src="./assets/icons/arrow-right.svg"
                                     alt=""
                                     class="blog-item__arrow"
@@ -1018,18 +1102,29 @@
                     <!-- Item 1 -->
                     <div class="testmonial__item">
                         <img
+                            loading="lazy"
                             src="./assets/imgs/testmonial/comma.svg"
                             alt=""
                             class="testmonial__comma"
                         />
-                        <p class="testmonial__text">
+                        <p
+                            class="text testmonial__text line-clamp line-7 break-all"
+                        >
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua.
+                            dolore magna aliqua. Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Lorem
+                            ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore
+                            magna aliqua. Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua.
                         </p>
 
                         <div class="testmonial__bottom">
                             <img
+                                loading="lazy"
                                 src="./assets/imgs/testmonial/img-1.avif"
                                 alt=""
                                 class="testmonial__avatar"
@@ -1043,16 +1138,19 @@
                                 </div>
                                 <div class="testmonial__stars">
                                     <img
+                                        loading="lazy"
                                         src="./assets/imgs/testmonial/star.svg"
                                         alt=""
                                         class="testmonial__star"
                                     />
                                     <img
+                                        loading="lazy"
                                         src="./assets/imgs/testmonial/star.svg"
                                         alt=""
                                         class="testmonial__star"
                                     />
                                     <img
+                                        loading="lazy"
                                         src="./assets/imgs/testmonial/star.svg"
                                         alt=""
                                         class="testmonial__star"
@@ -1065,11 +1163,14 @@
                     <!-- Item 2-->
                     <div class="testmonial__item">
                         <img
+                            loading="lazy"
                             src="./assets/imgs/testmonial/comma.svg"
                             alt=""
                             class="testmonial__comma"
                         />
-                        <p class="testmonial__text">
+                        <p
+                            class="text testmonial__text line-clamp line-7 break-all"
+                        >
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod tempor incididunt ut labore et
                             dolore magna aliqua.
@@ -1077,6 +1178,7 @@
 
                         <div class="testmonial__bottom">
                             <img
+                                loading="lazy"
                                 src="./assets/imgs/testmonial/img-1.avif"
                                 alt=""
                                 class="testmonial__avatar"
@@ -1090,16 +1192,19 @@
                                 </div>
                                 <div class="testmonial__stars">
                                     <img
+                                        loading="lazy"
                                         src="./assets/imgs/testmonial/star.svg"
                                         alt=""
                                         class="testmonial__star"
                                     />
                                     <img
+                                        loading="lazy"
                                         src="./assets/imgs/testmonial/star.svg"
                                         alt=""
                                         class="testmonial__star"
                                     />
                                     <img
+                                        loading="lazy"
                                         src="./assets/imgs/testmonial/star.svg"
                                         alt=""
                                         class="testmonial__star"
@@ -1112,17 +1217,21 @@
                     <!-- Item 3 -->
                     <div class="testmonial__item">
                         <img
+                            loading="lazy"
                             src="./assets/imgs/testmonial/comma.svg"
                             alt=""
                             class="testmonial__comma"
                         />
-                        <p class="testmonial__text">
+                        <p
+                            class="text testmonial__text line-clamp line-7 break-all"
+                        >
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod tempor incididunt ut labore et
                             dolore magna aliqua.
                         </p>
                         <div class="testmonial__bottom">
                             <img
+                                loading="lazy"
                                 src="./assets/imgs/testmonial/img-1.avif"
                                 alt=""
                                 class="testmonial__avatar"
@@ -1136,16 +1245,19 @@
                                 </div>
                                 <div class="testmonial__stars">
                                     <img
+                                        loading="lazy"
                                         src="./assets/imgs/testmonial/star.svg"
                                         alt=""
                                         class="testmonial__star"
                                     />
                                     <img
+                                        loading="lazy"
                                         src="./assets/imgs/testmonial/star.svg"
                                         alt=""
                                         class="testmonial__star"
                                     />
                                     <img
+                                        loading="lazy"
                                         src="./assets/imgs/testmonial/star.svg"
                                         alt=""
                                         class="testmonial__star"
@@ -1158,17 +1270,21 @@
                     <!-- Item 4 -->
                     <div class="testmonial__item">
                         <img
+                            loading="lazy"
                             src="./assets/imgs/testmonial/comma.svg"
                             alt=""
                             class="testmonial__comma"
                         />
-                        <p class="testmonial__text">
+                        <p
+                            class="text testmonial__text line-clamp line-7 break-all"
+                        >
                             4 Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod tempor incididunt ut labore et
                             dolore magna aliqua.
                         </p>
                         <div class="testmonial__bottom">
                             <img
+                                loading="lazy"
                                 src="./assets/imgs/testmonial/img-1.avif"
                                 alt=""
                                 class="testmonial__avatar"
@@ -1182,16 +1298,19 @@
                                 </div>
                                 <div class="testmonial__stars">
                                     <img
+                                        loading="lazy"
                                         src="./assets/imgs/testmonial/star.svg"
                                         alt=""
                                         class="testmonial__star"
                                     />
                                     <img
+                                        loading="lazy"
                                         src="./assets/imgs/testmonial/star.svg"
                                         alt=""
                                         class="testmonial__star"
                                     />
                                     <img
+                                        loading="lazy"
                                         src="./assets/imgs/testmonial/star.svg"
                                         alt=""
                                         class="testmonial__star"
@@ -1204,17 +1323,21 @@
                     <!-- Item 5 -->
                     <div class="testmonial__item">
                         <img
+                            loading="lazy"
                             src="./assets/imgs/testmonial/comma.svg"
                             alt=""
                             class="testmonial__comma"
                         />
-                        <p class="testmonial__text">
+                        <p
+                            class="text testmonial__text line-clamp line-7 break-all"
+                        >
                             5 Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod tempor incididunt ut labore et
                             dolore magna aliqua.
                         </p>
                         <div class="testmonial__bottom">
                             <img
+                                loading="lazy"
                                 src="./assets/imgs/testmonial/img-1.avif"
                                 alt=""
                                 class="testmonial__avatar"
@@ -1228,16 +1351,19 @@
                                 </div>
                                 <div class="testmonial__stars">
                                     <img
+                                        loading="lazy"
                                         src="./assets/imgs/testmonial/star.svg"
                                         alt=""
                                         class="testmonial__star"
                                     />
                                     <img
+                                        loading="lazy"
                                         src="./assets/imgs/testmonial/star.svg"
                                         alt=""
                                         class="testmonial__star"
                                     />
                                     <img
+                                        loading="lazy"
                                         src="./assets/imgs/testmonial/star.svg"
                                         alt=""
                                         class="testmonial__star"
@@ -1250,24 +1376,34 @@
 
                 <!-- testmonial control -->
                 <div class="testmonial__control">
-                    <label class="testmonial__control-item">
-                        <img src="./assets/icons/angle-right.svg" alt="" />
-                    </label>
-                    <label
+                    <div class="testmonial__control-item">
+                        <img
+                            loading="lazy"
+                            src="./assets/icons/angle-right.svg"
+                            alt=""
+                        />
+                    </div>
+                    <div
                         class="testmonial__control-item"
                         for="testmonial__control"
                     >
-                        <img src="./assets/icons/angle-right.svg" alt="" />
-                    </label>
+                        <img
+                            loading="lazy"
+                            src="./assets/icons/angle-right.svg"
+                            alt=""
+                        />
+                    </div>
                 </div>
             </section>
         </main>
+
         <!-- Footer -->
         <footer class="footer">
             <div class="footer__inner">
                 <div class="footer__top">
                     <a href="#!" class="logo-wrap">
                         <img
+                            loading="lazy"
                             src="./assets/imgs/logo-lagar.svg"
                             alt=""
                             class="logo"
@@ -1295,6 +1431,7 @@
                             />
                             <div class="footer__input-submit">
                                 <img
+                                    loading="lazy"
                                     src="./assets/icons/angle-right.svg"
                                     alt=""
                                 />
@@ -1306,6 +1443,7 @@
                                 class="footer__social-link footer__social-facebook"
                             >
                                 <img
+                                    loading="lazy"
                                     src="./assets/icons/facebook.svg"
                                     alt=""
                                     class="footer__social-icon"
@@ -1316,6 +1454,7 @@
                                 class="footer__social-link footer__social-twitter"
                             >
                                 <img
+                                    loading="lazy"
                                     src="./assets/icons/twitter.svg"
                                     alt=""
                                     class="footer__social-icon"
@@ -1326,6 +1465,7 @@
                                 class="footer__social-link footer__social-linkedin"
                             >
                                 <img
+                                    loading="lazy"
                                     src="./assets/icons/linkedin.svg"
                                     alt=""
                                     class="footer__social-icon"
